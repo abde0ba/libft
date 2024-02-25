@@ -6,12 +6,11 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 13:23:39 by abbaraka          #+#    #+#             */
-/*   Updated: 2023/11/09 21:42:15 by abbaraka         ###   ########.fr       */
+/*   Updated: 2023/11/12 01:46:39 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 void	ft_bzero(void *s, size_t n)
 {

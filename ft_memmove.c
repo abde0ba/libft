@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 00:17:20 by abbaraka          #+#    #+#             */
-/*   Updated: 2023/11/07 21:32:51 by abbaraka         ###   ########.fr       */
+/*   Updated: 2023/11/15 22:40:34 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	int	i;
 
 	if (dst == NULL && src == NULL)
+		return (NULL);
+	if(len > ft_strlen(src))
 		return (NULL);
 	if (dst < src)
 	{

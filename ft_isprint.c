@@ -6,9 +6,11 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 11:39:50 by abbaraka          #+#    #+#             */
-/*   Updated: 2023/11/01 22:52:58 by abbaraka         ###   ########.fr       */
+/*   Updated: 2023/11/12 01:47:14 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

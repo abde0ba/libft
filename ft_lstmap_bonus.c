@@ -6,7 +6,7 @@
 /*   By: abbaraka <abbaraka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/05 14:45:10 by abbaraka          #+#    #+#             */
-/*   Updated: 2023/11/12 00:31:14 by abbaraka         ###   ########.fr       */
+/*   Updated: 2023/11/15 22:40:55 by abbaraka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		ft_lstadd_back(&ptr, new);
 		lst = lst->next;
 	}
-	ft_lstclear(&lst, del);
+	// ft_lstclear(&lst, del);
 	return (ptr);
 }
